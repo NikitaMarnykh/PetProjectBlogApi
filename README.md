@@ -1,23 +1,20 @@
 <h1>BlogAPI</h1>
 <ul>1. Первая локальная установка
   <li>1.1 Cоздайте директорию проекта </li>
-  <li>
     <li>1.2 В папке проекта создайте виртуальное окружение c помощью следующих команд в командной строке:</li>
     <li>1.2.1 cd <Полный путь к папке проекта></li>
     <li>1.2.2 python -m venv <Имя виртуального окружения></li>
-    <li>1.2.3 Активируем виртуальной окружение с помощью команды:</li>
-    <li>.\<Имя вашего виртуального окружения>\Scripts\activate</li>
-    <li></li> 1.2.4 pip list - для проверки пакетов виртуального окружения</li>
-  </li>
-  1.3 Переходим в PyCharm и выбираем созданный проект
-  1.4 Через терминал устанавливаем фреймворк DJango:
-     1.4.1 pip install django
-  1.5 Устанавливаем фреймворк DJango REST Framework:
-     1.5.1 pip install djrestframework
-  1.6 Устанавливаем фреймворк django-filter:
-     1.6.1 pip install django-filter
-  1.7 Установите пакет Simple JWT:
-     1.7.1 pip install djangorestframework-simplejwt
+    <li>1.2.3 Активируем виртуальной окружение с помощью команды: .\<Имя вашего виртуального окружения>\Scripts\activate</li>
+    <li> 1.2.4 pip list - для проверки пакетов виртуального окружения</li>
+  <li> 1.3 Переходим в PyCharm и выбираем созданный проект </li>
+  <li> 1.4 Через терминал устанавливаем фреймворк DJango: </li>
+  <li>   1.4.1 pip install django </li>
+  <li> 1.5 Устанавливаем фреймворк DJango REST Framework: </li>
+  <li>   1.5.1 pip install djrestframework </li>
+  <li> 1.6 Устанавливаем фреймворк django-filter: </li>
+  <li>   1.6.1 pip install django-filter </li>
+  <li> 1.7 Установите пакет Simple JWT: </li>
+  <li>  1.7.1 pip install djangorestframework-simplejwt </li>
   </ul>
 2. Запуск
    2.1 Переходим в каталог Blog:
