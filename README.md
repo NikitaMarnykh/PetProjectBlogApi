@@ -1,5 +1,5 @@
 <h1>BlogAPI</h1>
-<ul>1. Первая локальная установка
+<ul>1. <h2> Первая локальная установка </h2>
   <li>1.1 Cоздайте директорию проекта </li>
     <li>1.2 В папке проекта создайте виртуальное окружение c помощью следующих команд в командной строке:</li>
     <li>1.2.1 cd <Полный путь к папке проекта></li>
@@ -16,17 +16,18 @@
   <li> 1.7 Установите пакет Simple JWT: </li>
   <li>  1.7.1 pip install djangorestframework-simplejwt </li>
   </ul>
-2. Запуск
-   2.1 Переходим в каталог Blog:
-      2.1.1 cd Blog
-   2.2 Выполняем миграцию:
-      2.2.1 python manage.py makemigrations
-   2.3 Применяем миграцию:
-      2.3.1 python manage.py migrate
-   2.4 Создаём суперпользователя:
-      2.4.1 python manage.py createsuperuser
-   2.4 Запускаем локальный сервер:
-      2.4.1 python manage.py runserver
+<ul>2. <h2> Запуск </h2>
+  <li> 2.1 Переходим в каталог Blog: </li>
+     <li> 2.1.1 cd Blog </li>
+  <li> 2.2 Выполняем миграцию: </li>
+     <li> 2.2.1 python manage.py makemigrations </li>
+  <li> 2.3 Применяем миграцию: </li>
+     <li> 2.3.1 python manage.py migrate </li>
+  <li> 2.4 Создаём суперпользователя: </li>
+     <li> 2.4.1 python manage.py createsuperuser </li>
+  <li> 2.5 Запускаем локальный сервер: </li>
+     <li> 2.5.1 python manage.py runserver </li>
+</ul>
 В проекте реализовано следующее:
 Требования к функционалу:
 1. API для блог-постов:
